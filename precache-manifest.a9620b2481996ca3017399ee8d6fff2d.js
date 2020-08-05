@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e545a891bd02b60e9608c3b2eecbf9a8",
+    "revision": "de0b0af410d5f2a9cf85077b51af427f",
     "url": "/tama-item-guide/index.html"
   },
   {

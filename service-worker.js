@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tama-item-guide/precache-manifest.f4d223b58ea7356c22a5dda4b2efb5ba.js"
+  "/tama-item-guide/precache-manifest.a9620b2481996ca3017399ee8d6fff2d.js"
 );
 
 self.addEventListener('message', (event) => {
