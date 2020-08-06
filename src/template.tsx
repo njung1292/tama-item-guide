@@ -4,11 +4,11 @@ import './styles.css';
 export default function template() {
   return (
     <div className="wrapper">
-      <h1>Tamagotchi On (Magic) Item Guide</h1>
+      <h1>Tamagotchi On Item Guide</h1>
 
       <div>Result:
         {this.state.result.map((item, i) =>
-          <span key={i}>{` ${item.displayName}`}{i === this.state.result.length - 1 ? '' : ','}</span>
+          <span className="result-item" key={i}>{` ${item.displayName}`}{i === this.state.result.length - 1 ? '' : ','}</span>
         )}
       </div>
 
@@ -23,8 +23,25 @@ export default function template() {
         className="submit-btn">
         Submit
       </button>
+      <div className="tama-filter-list-wrapper">
+        Filters:
+        <div className={`tama-filter tama-filter--fairy${this.state.selectedLocationFilter === "FAIRY" ? ' selected' : ''}`}
+          onClick={e => this.handleFilterClicked(e, "FAIRY")}>
+            Fairy
+        </div>
+
+        <div className={`tama-filter tama-filter--magic${this.state.selectedLocationFilter === "MAGIC" ? ' selected' : ''}`}
+          onClick={e => this.handleFilterClicked(e, "MAGIC")}>
+            Magic
+        </div>
+
+        <div className={`tama-filter tama-filter--pastel${this.state.selectedLocationFilter === "PASTEL" ? ' selected' : ''}`}
+          onClick={e => this.handleFilterClicked(e, "PASTEL")}>
+            Pastel
+        </div>
+      </div>
       <div className="tama-list-wrapper">
-        {this.state.tamas.map((tama, i) =>
+        {this.state.displayedTamas.map((tama, i) =>
           <div className={`tama-select${(this.state.selectedTamas[tama.displayName] ? ' selected' : '')}`}
             key={`tama-${i}`}
             onClick={e => this.handleTamaSelected(e, tama)}>

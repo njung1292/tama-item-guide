@@ -11,6 +11,10 @@ h1 {
   margin-bottom: 16px;
 }
 
+.result-item {
+  font-weight: 500;
+}
+
 button {
   @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
 }
@@ -25,6 +29,56 @@ button:disabled {
 
 button.reset-btn {
   margin-right: 8px;
+}
+
+.tama-filter-list-wrapper {
+  margin-top: 1rem;
+}
+
+.tama-filter {
+  @apply inline-block rounded-full px-3 py-1 text-sm text-gray-700;
+  @apply border-r border-l border-b border-t;
+  @apply ml-2;
+}
+
+.tama-filter:hover {
+  cursor: pointer;
+}
+
+.tama-filter--fairy {
+  @apply bg-pink-200 border-pink-500;
+}
+
+.tama-filter--fairy:hover {
+  @apply bg-pink-300;
+}
+
+.tama-filter--fairy.selected {
+  @apply bg-pink-400;
+}
+
+.tama-filter--magic {
+  @apply bg-purple-200 border-purple-500;
+}
+
+.tama-filter--magic:hover {
+  @apply bg-purple-300;
+}
+
+.tama-filter--magic.selected {
+  @apply bg-purple-400;
+}
+
+.tama-filter--pastel {
+  @apply bg-yellow-200 border-yellow-500;
+}
+
+.tama-filter--pastel:hover {
+  @apply bg-yellow-300;
+}
+
+.tama-filter--pastel.selected {
+  @apply bg-yellow-400;
 }
 
 .tama-list-wrapper {
@@ -76,7 +130,7 @@ button.reset-btn {
 }
 
 .tama-select-tag {
-  @apply inline-block rounded-full px-3 py-1 text-sm font-semibold text-gray-700;
+  @apply inline-block rounded-full px-3 py-1 text-sm text-gray-700;
 }
 
 .tama-select-tag--F {

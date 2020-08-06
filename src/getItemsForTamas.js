@@ -1,8 +1,20 @@
 import _ from 'lodash';
-import {ITEMS_BY_ID} from './itemList';
+import {default as ITEM_LIST} from './itemList.json';
 
-export function getItemsForTamas(tamas) {
-  const itemIds = getItemsForTamasHelper(tamas, []);
+const ITEMS_BY_ID = _.keyBy(ITEM_LIST, 'id');
+
+export function getItemsForTamas(tamas, filterLocations) {
+  const tamasClone = _.cloneDeep(tamas);
+  if (filterLocations.length !== 0) {
+    tamasClone.forEach(tama => {
+      tama.favoriteItems = tama.favoriteItems.filter(itemId => {
+        const item = ITEMS_BY_ID[itemId];
+        return _.intersection(filterLocations, item.locations).length !== 0;
+      });
+    });
+  }
+
+  const itemIds = getItemsForTamasHelper(tamasClone, []);
   return _.sortBy(_.map(itemIds, id => ITEMS_BY_ID[id]), 'displayName');
 }
 

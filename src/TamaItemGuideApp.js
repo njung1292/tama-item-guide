@@ -1,14 +1,31 @@
 import React from 'react';
 import template from './template.tsx';
 import {getItemsForTamas} from './getItemsForTamas';
-import TAMA_LIST from './tamaList';
+import {default as TAMA_LIST} from './tamaList.json';
+import _ from 'lodash';
+
+const DEFAULT_LOCATIONS = [
+  "Food Town",
+  "Gym",
+  "Salon",
+  "Starry Lab",
+  "Tama Depa",
+  "Tama Farm",
+  "Tama Hotel",
+  "Toy Park"
+];
+
+const sortedTamas = _.sortBy(TAMA_LIST, 'displayName');
 
 class TamaItemGuideApp extends React.Component {
   constructor(props) {
     super(props);
+
     this.state = {
-      tamas: _.sortBy(TAMA_LIST, 'displayName'),
+      displayedTamas: sortedTamas,
+      filterLocations: ["Fairy Land", "Magic Land", "Easter Land", "Flower Garden"],
       selectedTamas: {},
+      selectedLocationFilter: null,
       result: [],
       showResult: false,
       disableResetBtn: true,
@@ -17,6 +34,7 @@ class TamaItemGuideApp extends React.Component {
 
     // Event handlers
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.handleFilterClicked = this.handleFilterClicked.bind(this);
     this.handleTamaSelected = this.handleTamaSelected.bind(this);
     this.handleReset = this.handleReset.bind(this);
   }
@@ -25,7 +43,10 @@ class TamaItemGuideApp extends React.Component {
     event.preventDefault();
     this.setState({
       result: [],
+      displayedTamas: sortedTamas,
       selectedTamas: {},
+      filterLocations: [],
+      selectedLocationFilter: null,
       disableResetBtn: true,
       disableSubmitBtn: true,
     });
@@ -35,8 +56,44 @@ class TamaItemGuideApp extends React.Component {
     event.preventDefault();
 
     this.setState({
-      result: getItemsForTamas(this.state.tamas.filter(
-          tama => this.state.selectedTamas[tama.displayName])),
+      result: getItemsForTamas(this.state.displayedTamas.filter(
+          tama => this.state.selectedTamas[tama.displayName]), DEFAULT_LOCATIONS.concat(this.state.filterLocations)),
+    });
+  }
+
+  handleFilterClicked(event, filterName) {
+    event.preventDefault();
+
+    const isFilterActivated = this.state.selectedLocationFilter !== filterName;
+    let newDisplayedTamas = sortedTamas;
+    let filterLocations = ["Fairy Land", "Magic Land", "Easter Land", "Flower Garden"];
+
+    if (isFilterActivated) {
+      switch (filterName) {
+        case "FAIRY":
+          filterLocations = ["Fairy Land"];
+          break;
+        case "MAGIC":
+          filterLocations = ["Magic Land"];
+          break;
+        case "PASTEL":
+          filterLocations = ["Easter Land", "Flower Garden"];
+          break;
+        default:
+          break;
+      }
+
+      newDisplayedTamas = sortedTamas.filter(
+        tama => _.includes(DEFAULT_LOCATIONS.concat(filterLocations), tama.location));
+    }
+
+    this.setState(prevState => {
+      return {
+        filterLocations: filterLocations,
+        displayedTamas: newDisplayedTamas,
+        selectedLocationFilter: isFilterActivated ? filterName : null,
+        disableResetBtn: !isFilterActivated && !_.some(prevState.selectedTamas),
+      };
     });
   }
 
@@ -52,7 +109,7 @@ class TamaItemGuideApp extends React.Component {
       };
       return {
         selectedTamas: newSelectedTamas,
-        disableResetBtn: !_.some(newSelectedTamas),
+        disableResetBtn: !_.some(newSelectedTamas) && prevState.selectedLocationFilter != null,
         disableSubmitBtn: !_.some(newSelectedTamas),
       };
     });
