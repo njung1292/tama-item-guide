@@ -7,7 +7,8 @@ body {
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 36px;
+  margin-bottom: 16px;
 }
 
 button {
@@ -33,17 +34,17 @@ button.reset-btn {
 
 .tama-select {
   @apply max-w-sm rounded overflow-hidden border-r border-t border-b border-l border-gray-400;
-  width: 208px;
+  width: 212px;
   margin: 8px;
 }
 
 .tama-select:hover {
-  @apply bg-gray-200;
+  @apply bg-gray-100;
   cursor: pointer;
 }
 
 .tama-select.selected {
-  @apply bg-gray-300;
+  @apply bg-gray-200;
 }
 
 .tama-select-text-contents {
@@ -79,15 +80,15 @@ button.reset-btn {
 }
 
 .tama-select-tag--F {
-  @apply bg-pink-200;
+  @apply bg-pink-200 border-r border-l border-b border-t border-pink-300;
   @apply mr-2;
 }
 
 .tama-select-tag--M {
-  @apply bg-blue-200;
+  @apply bg-blue-200 border-r border-l border-b border-t border-blue-300;
   @apply mr-2;
 }
 
 .tama-select-tag--location {
-  @apply bg-green-200;
+  @apply bg-green-200 border-r border-l border-b border-t border-green-300;
 }

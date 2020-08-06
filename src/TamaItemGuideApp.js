@@ -7,7 +7,7 @@ class TamaItemGuideApp extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      tamas: TAMA_LIST,
+      tamas: _.sortBy(TAMA_LIST, 'displayName'),
       selectedTamas: {},
       result: [],
       showResult: false,

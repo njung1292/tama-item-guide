@@ -4,7 +4,7 @@ import './styles.css';
 export default function template() {
   return (
     <div className="wrapper">
-      <h1>Tama Item Guide</h1>
+      <h1>Tamagotchi On (Magic) Item Guide</h1>
 
       <div>Result:
         {this.state.result.map((item, i) =>
@@ -12,7 +12,7 @@ export default function template() {
         )}
       </div>
 
-      <p>Select Tamas</p>
+      <p>Select Residents</p>
       <button onClick={this.handleReset}
         disabled={this.state.disableResetBtn}
         className="reset-btn">
