@@ -1,126 +1,95 @@
 [
   {
-    "id": "ART_CANVAS",
     "displayName": "Art Canvas",
     "locations": ["Food Town", "Gym", "Magic Land", "Salon", "Starry Lab", "Tama Depa", "Tama Farm", "Tama Hotel", "Toy Park"]
   }, {
-    "id": "BALL",
     "displayName": "Ball",
     "locations": []
   }, {
-    "id": "BALLOON",
     "displayName": "Balloon",
     "locations": ["Fairy Land"]
   }, {
-    "id": "BINOCULARS",
     "displayName": "Binoculars",
     "locations": ["Tama Hotel"]
   }, {
-    "id": "CHICK_NESTING_DOLL",
     "displayName": "Chick Nesting Doll",
     "locations": ["Easter Land"]
   }, {
-    "id": "COIN_PURSE",
     "displayName": "Coin Purse",
     "locations": ["Food Town", "Gym", "Magic Land", "Salon", "Starry Lab", "Tama Depa", "Tama Farm", "Tama Hotel", "Toy Park"]
   }, {
-    "id": "DIY_SOBA",
     "displayName": "DIY Soba",
     "locations": ["Food Town"]
   }, {
-    "id": "FLOWER_CRACKER",
     "displayName": "Flower Cracker",
     "locations": ["Flower Garden"]
   }, {
-    "id": "FLOWER_SWING",
     "displayName": "Flower Swing",
     "locations": ["Flower Garden"]
   }, {
-    "id": "FLY_CARPET",
     "displayName": "Fly Carpet",
     "locations": ["Magic Land"]
   }, {
-    "id": "FLYING_DISC",
     "displayName": "Flying Disc",
     "locations": ["Food Town", "Gym", "Magic Land", "Salon", "Starry Lab", "Tama Depa", "Tama Farm", "Tama Hotel", "Toy Park"]
   }, {
-    "id": "FORTUNE",
     "displayName": "Fortune",
     "locations": ["Magic Land"]
   }, {
-    "id": "GARDEN_KIT",
     "displayName": "Garden Kit",
     "locations": ["Tama Farm"]
   }, {
-    "id": "HAIR_DRYER",
     "displayName": "Hair Dryer",
     "locations": ["Salon"]
   }, {
-    "id": "HARMONICA",
     "displayName": "Harmonica",
     "locations": ["Food Town", "Gym", "Magic Land", "Salon", "Starry Lab", "Tama Depa", "Tama Farm", "Tama Hotel", "Toy Park"]
   }, {
-    "id": "HONEY_POT",
     "displayName": "Honey Pot",
     "locations": ["Easter Land"]
   }, {
-    "id": "MAGAZINE",
     "displayName": "Magazine",
     "locations": ["Food Town", "Gym", "Magic Land", "Salon", "Starry Lab", "Tama Depa", "Tama Farm", "Tama Hotel", "Toy Park"]
   }, {
-    "id": "MAGIC_SET",
     "displayName": "Magic Set",
     "locations": ["Toy Park"]
   }, {
-    "id": "MUSIC_BOX",
     "displayName": "Music Box",
     "locations": ["Fairy Land"]
   }, {
-    "id": "NO_G_KIT",
     "displayName": "No G Kit",
     "locations": ["Starry Lab"]
   }, {
-    "id": "OVEN",
     "displayName": "Oven",
     "locations": ["Food Town"]
   }, {
-    "id": "PLANT_TOOLS",
     "displayName": "Plant Tools",
     "locations": ["Tama Farm"]
   }, {
-    "id": "RACKET",
     "displayName": "Racket",
     "locations": ["Gym"]
   }, {
-    "id": "SCOOTER",
     "displayName": "Scooter",
     "locations": ["Tama Depa"]
   }, {
-    "id": "STAR_ROOM",
     "displayName": "Star Room",
     "locations": ["Starry Lab"]
   }, {
-    "id": "TRAIN_SET",
     "displayName": "Train Set",
     "locations": ["Toy Park"]
   }, {
-    "id": "TREADMILL",
     "displayName": "Treadmill",
     "locations": ["Gym"]
   }, {
-    "id": "TRUNK",
     "displayName": "Trunk",
     "locations": ["Tama Hotel"]
   }, {
-    "id": "UNICYCLE",
     "displayName": "Unicycle",
     "locations": ["Food Town", "Gym", "Magic Land", "Salon", "Starry Lab", "Tama Depa", "Tama Farm", "Tama Hotel", "Toy Park"]
   }, {
-    "id": "VANITY",
     "displayName": "Vanity",
     "locations": ["Salon"]
   }, {
-    "id": "VR_SET",
     "displayName": "VR Set",
     "locations": ["Tama Depa"]
   }

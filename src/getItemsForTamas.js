@@ -1,21 +1,22 @@
 import _ from 'lodash';
 import {default as ITEM_LIST} from './itemList.json';
 
-const ITEMS_BY_ID = _.keyBy(ITEM_LIST, 'id');
+const ITEMS_BY_NAME = _.keyBy(ITEM_LIST, 'displayName');
 
 export function getItemsForTamas(tamas, filterLocations) {
   const tamasClone = _.cloneDeep(tamas);
   if (filterLocations.length !== 0) {
+    filterLocations = _.uniq(filterLocations);
     tamasClone.forEach(tama => {
-      tama.favoriteItems = tama.favoriteItems.filter(itemId => {
-        const item = ITEMS_BY_ID[itemId];
+      tama.favoriteItems = tama.favoriteItems.filter(itemName => {
+        const item = ITEMS_BY_NAME[itemName];
         return _.intersection(filterLocations, item.locations).length !== 0;
       });
     });
   }
 
-  const itemIds = getItemsForTamasHelper(tamasClone, []);
-  return _.sortBy(_.map(itemIds, id => ITEMS_BY_ID[id]), 'displayName');
+  const itemNames = getItemsForTamasHelper(tamasClone, []);
+  return _.sortBy(_.map(itemNames, itemName => ITEMS_BY_NAME[itemName]), 'displayName');
 }
 
 function getItemsForTamasHelper(tamas, items) {

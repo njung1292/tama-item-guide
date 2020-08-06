@@ -2,17 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  margin: 20px;
+h1 {
+  @apply mx-4 my-4;
+  font-size: 36px;
 }
 
-h1 {
-  font-size: 36px;
-  margin-bottom: 16px;
+h2 {
+  @apply mx-4;
+  font-size: 18px;
+}
+
+.sticky-footer {
+  @apply border-t border-gray-400;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+  width: 100%;
+  padding: 1rem;
+  z-index: 10;
+}
+
+.results-container {
+  flex: 1;
+  margin: auto;
 }
 
 .result-item {
-  font-weight: 500;
+  @apply inline-block font-semibold rounded-full px-3 py-1 text-sm text-gray-700;
+  @apply ml-2;
+  @apply bg-gray-400 border-gray-500 border-r border-l border-b border-t;
 }
 
 button {
@@ -32,6 +51,7 @@ button.reset-btn {
 }
 
 .tama-filter-list-wrapper {
+  @apply mx-4;
   margin-top: 1rem;
 }
 
@@ -82,8 +102,10 @@ button.reset-btn {
 }
 
 .tama-list-wrapper {
+  @apply mx-4;
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 100px; /* make room for the sticky footer */
 }
 
 .tama-select {
@@ -95,6 +117,26 @@ button.reset-btn {
 .tama-select:hover {
   @apply bg-gray-100;
   cursor: pointer;
+}
+
+.tama-select:hover .tama-select-back {
+  display: block;
+}
+
+.tama-select:hover .tama-select-front {
+  display: none;
+}
+
+.tama-select-back {
+  display: none;
+}
+
+.tama-select-back .tama-name {
+  @apply font-semibold text-sm;
+}
+
+.tama-select-favorite-items {
+  @apply px-6 py-4;
 }
 
 .tama-select.selected {
@@ -121,7 +163,7 @@ button.reset-btn {
   right: 0;
 }
 
-.tama-name {
+.tama-select-front .tama-name {
   @apply font-bold text-xl;
 }
 

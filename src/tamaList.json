@@ -1,217 +1,217 @@
 [
   {
     "displayName": "Bonnetchi",
-    "favoriteItems": ["CHICK_NESTING_DOLL", "DIY_SOBA", "FLOWER_SWING", "MAGIC_SET", "TRAIN_SET", "TRUNK"],
+    "favoriteItems": ["Chick Nesting Doll", "DIY Soba", "Flower Swing", "Magic Set", "Train Set", "Trunk"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/bonnetchi.png",
     "location": "Toy Park",
     "gender": "F"
   }, {
     "displayName": "Charismatchi",
-    "favoriteItems": ["ART_CANVAS", "HAIR_DRYER", "SCOOTER", "VANITY"],
+    "favoriteItems": ["Art Canvas", "Hair Dryer", "Scooter", "Vanity"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/charismatchi.png",
     "location": "Salon",
     "gender": "M"
   }, {
     "displayName": "Cherrytchi",
-    "favoriteItems": ["CHICK_NESTING_DOLL", "GARDEN_KIT", "HONEY_POT", "MAGAZINE", "TRAIN_SET"],
+    "favoriteItems": ["Chick Nesting Doll", "Garden Kit", "Honey Pot", "Magazine", "Train Set"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/cherrytchi.png",
     "location": "Tama Farm",
     "gender": "F"
   }, {
     "displayName": "Chouchoutchi",
-    "favoriteItems": ["CHICK_NESTING_DOLL", "GARDEN_KIT", "HONEY_POT", "MAGAZINE", "TRAIN_SET"],
+    "favoriteItems": ["Chick Nesting Doll", "Garden Kit", "Honey Pot", "Magazine", "Train Set"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/chouchoutchi.png",
     "location": "Flower Garden",
     "gender": "F"
   }, {
     "displayName": "Coffretchi",
-    "favoriteItems": ["HAIR_DRYER", "RACKET", "TRUNK", "VANITY"],
+    "favoriteItems": ["Hair Dryer", "Racket", "Trunk", "Vanity"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/coffretchi.png",
     "location": "Salon",
     "gender": "F"
   }, {
     "displayName": "Eggbasketchi",
-    "favoriteItems": ["CHICK_NESTING_DOLL", "DIY_SOBA", "FLOWER_SWING", "MAGIC_SET", "TRAIN_SET", "TRUNK"],
+    "favoriteItems": ["Chick Nesting Doll", "DIY Soba", "Flower Swing", "Magic Set", "Train Set", "Trunk"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/eggbasketchi.png",
     "location": "Easter Land",
     "gender": "F"
   }, {
     "displayName": "Fairytchi",
-    "favoriteItems": ["HARMONICA"],
+    "favoriteItems": ["Harmonica"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/fairytchi.png",
     "location": "Fairy Land",
     "gender": "F"
   }, {
     "displayName": "Flower Fleur",
-    "favoriteItems": ["FLOWER_CRACKER", "PLANT_TOOLS", "UNICYCLE"],
+    "favoriteItems": ["Flower Cracker", "Plant Tools", "Unicycle"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/flower-fleur.png",
     "location": "Flower Garden",
     "gender": "F"
   }, {
     "displayName": "Goggletchi",
-    "favoriteItems": ["RACKET", "TRAIN_SET"],
+    "favoriteItems": ["Racket", "Train Set"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/oyogogurutchi.png",
     "location": "Gym",
     "gender": "M"
   }, {
     "displayName": "Gozarutchi",
-    "favoriteItems": ["DIY_SOBA", "GARDEN_KIT"],
+    "favoriteItems": ["DIY Soba", "Garden Kit"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/gozarutchi.png",
     "location": "Gym",
     "gender": "M"
   }, {
     "displayName": "Hatakemotchi",
-    "favoriteItems": ["CHICK_NESTING_DOLL" , "GARDEN_KIT"],
+    "favoriteItems": ["Chick Nesting Doll" , "Garden Kit"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/hatakemotchi.png",
     "location": "Tama Farm",
     "gender": "M"
   }, {
     "displayName": "Kappappatchi",
-    "favoriteItems": ["FLOWER_CRACKER" ,"NO_G_KIT", "STAR_ROOM"],
+    "favoriteItems": ["Flower Cracker" ,"No G Kit", "Star Room"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/kappappatchi.png",
     "location": "Food Town",
     "gender": "M"
   }, {
     "displayName": "Kikitchi",
-    "favoriteItems": ["SCOOTER", "UNICYCLE"],
+    "favoriteItems": ["Scooter", "Unicycle"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/kikitchi.png",
     "location": "Tama Hotel",
     "gender": "M"
   }, {
     "displayName": "Korobatchi",
-    "favoriteItems": ["CHICK_NESTING_DOLL", "DIY_SOBA", "FLY_CARPET", "HONEY_POT", "MAGIC_SET"],
+    "favoriteItems": ["Chick Nesting Doll", "DIY Soba", "Fly Carpet", "Honey Pot", "Magic Set"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/korobatchi.png",
     "location": "Magic Land",
     "gender": "M"
   }, {
     "displayName": "Kuchipatchi",
-    "favoriteItems": ["CHICK_NESTING_DOLL", "DIY_SOBA", "FLY_CARPET", "HONEY_POT", "MAGIC_SET"],
+    "favoriteItems": ["Chick Nesting Doll", "DIY Soba", "Fly Carpet", "Honey Pot", "Magic Set"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/kuchipatchi.png",
     "location": "Food Town",
     "gender": "M"
   }, {
     "displayName": "Kuromametchi",
-    "favoriteItems": ["BALL", "FLYING_DISC", "HARMONICA", "TREADMILL", "UNICYCLE"],
+    "favoriteItems": ["BALL", "Flying Disc", "Harmonica", "Treadmill", "Unicycle"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/kuromametchi.png",
     "location": "Gym",
     "gender": "M"
   }, {
     "displayName": "Lovelitchi",
-    "favoriteItems": ["COIN_PURSE", "FORTUNE", "VANITY"],
+    "favoriteItems": ["Coin Purse", "Fortune", "Vanity"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/lovelitchi.png",
     "location": "Tama Hotel",
     "gender": "F"
   }, {
     "displayName": "Majoritchi",
-    "favoriteItems": ["FORTUNE", "HARMONICA", "MAGIC_SET"],
+    "favoriteItems": ["Fortune", "Harmonica", "Magic Set"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/majoritchi.png",
     "location": "Magic Land",
     "gender": "F"
   }, {
     "displayName": "Mametchi",
-    "favoriteItems": ["BALLOON", "FLYING_DISC", "MAGIC_SET", "PLANT_TOOLS", "STAR_ROOM", "UNICYCLE", "VR_SET"],
+    "favoriteItems": ["Balloon", "Flying Disc", "Magic Set", "Plant Tools", "Star Room", "Unicycle", "VR Set"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/mametchi.png",
     "location": "Tama Hotel",
     "gender": "M"
   }, {
     "displayName": "Memetchi",
-    "favoriteItems": ["HAIR_DRYER", "RACKET", "TRUNK", "VANITY"],
+    "favoriteItems": ["Hair Dryer", "Racket", "Trunk", "Vanity"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/memetchi.png",
     "location": "Salon",
     "gender": "F"
   }, {
     "displayName": "Mochiusatchi",
-    "favoriteItems": ["COIN_PURSE", "FLOWER_SWING", "MUSIC_BOX"],
+    "favoriteItems": ["Coin Purse", "Flower Swing", "Music Box"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/mochiusatchi.png",
     "location": "Starry Lab",
     "gender": "F"
   }, {
     "displayName": "Nanizatchi",
-    "favoriteItems": ["BINOCULARS", "NO_G_KIT", "RACKET", "STAR_ROOM"],
+    "favoriteItems": ["Binoculars", "No G Kit", "Racket", "Star Room"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/kiminanizatchi.png",
     "location": "Starry Lab",
     "gender": "M"
   }, {
     "displayName": "Nejirobotchi",
-    "favoriteItems": ["TRAIN_SET", "TREADMILL", "VR_SET"],
+    "favoriteItems": ["Train Set", "Treadmill", "VR Set"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/nejirobotchi.png",
     "location": "Toy Park",
     "gender": "M"
   }, {
     "displayName": "Nijifuwatchi",
-    "favoriteItems": ["BALLOON", "FLOWER_SWING", "FORTUNE"],
+    "favoriteItems": ["Balloon", "Flower Swing", "Fortune"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/nijifuwatchi.png",
     "location": "Tama Hotel",
     "gender": "F"
   }, {
     "displayName": "Omechuptchi",
-    "favoriteItems": ["GARDEN_KIT", "MAGIC_SET", "OVEN"],
+    "favoriteItems": ["Garden Kit", "Magic Set", "Oven "],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/omuchaputchi.png",
     "location": "Food Town",
     "gender": "M"
   }, {
     "displayName": "Pizalinatchi",
-    "favoriteItems": ["MUSIC_BOX", "OVEN"],
+    "favoriteItems": ["Music Box", "Oven "],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/pizzarinatchi.png",
     "location": "Food Town",
     "gender": "F"
   }, {
     "displayName": "Piyotamausatchi",
-    "favoriteItems": ["CHICK_NESTING_DOLL", "DIY_SOBA", "FLY_CARPET", "HONEY_POT", "MAGIC_SET"],
+    "favoriteItems": ["Chick Nesting Doll", "DIY Soba", "Fly Carpet", "Honey Pot", "Magic Set"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/piyotamausatchi.png",
     "location": "Easter Land",
     "gender": "M"
   }, {
     "displayName": "Pompomtchi",
-    "favoriteItems": ["FLOWER_SWING", "FLY_CARPET", "RACKET", "UNICYCLE"],
+    "favoriteItems": ["Flower Swing", "Fly Carpet", "Racket", "Unicycle"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/pompomtchi.png",
     "location": "Gym",
     "gender": "F"
   }, {
     "displayName": "Tamaboytchi",
-    "favoriteItems": ["CHICK_NESTING_DOLL", "GARDEN_KIT"],
+    "favoriteItems": ["Chick Nesting Doll", "Garden Kit"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/tamaboitchi.png",
     "location": "Easter Land",
     "gender": "M"
   }, {
     "displayName": "Tamaladytchi",
-    "favoriteItems": ["HAIR_DRYER", "RACKET", "TRUNK", "VANITY"],
+    "favoriteItems": ["Hair Dryer", "Racket", "Trunk", "Vanity"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/tamaladytchi.png",
     "location": "Easter Land",
     "gender": "F"
   }, {
     "displayName": "Tuturinatchi",
-    "favoriteItems": ["COIN_PURSE", "FORTUNE", "RACKET", "VANITY"],
+    "favoriteItems": ["Coin Purse", "Fortune", "Racket", "Vanity"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/chuchurinatchi.png",
     "location": "Gym",
     "gender": "F"
   }, {
     "displayName": "Unipegasatchi",
-    "favoriteItems": ["BALL", "BALLOON", "TREADMILL", "STAR_ROOM"],
+    "favoriteItems": ["BALL", "Balloon", "Treadmill", "Star Room"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/yunipegasatchi.png",
     "location": "Fairy Land",
     "gender": "M"
   }, {
     "displayName": "Violetchi",
-    "favoriteItems": ["FLOWER_CRACKER", "PLANT_TOOLS", "UNICYCLE"],
+    "favoriteItems": ["Flower Cracker", "Plant Tools", "Unicycle"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/furawatchi.png",
     "location": "Tama Farm",
     "gender": "F"
   }, {
     "displayName": "Watawatatchi",
-    "favoriteItems": ["BINOCULARS", "NO_G_KIT", "RACKET", "STAR_ROOM"],
+    "favoriteItems": ["Binoculars", "No G Kit", "Racket", "Star Room"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/watawatatchi.png",
     "location": "Tama Farm",
     "gender": "F"
   }, {
     "displayName": "Yotsubatchi",
-    "favoriteItems": ["ART_CANVAS", "FLYING_DISC", "HARMONICA", "HONEY_POT", "PLANT_TOOLS", "TRUNK"],
+    "favoriteItems": ["Art Canvas", "Flying Disc", "Harmonica", "Honey Pot", "Plant Tools", "Trunk"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/yotsubatchi.png",
     "location": "Fairy Land",
     "gender": "M"
   }, {
     "displayName": "Youmotchi",
-    "favoriteItems": ["ART_CANVAS", "FLYING_DISC", "HARMONICA", "PLANT_TOOLS", "TRUNK"],
+    "favoriteItems": ["Art Canvas", "Flying Disc", "Harmonica", "Plant Tools", "Trunk"],
     "imgUrl": "https://vpetparadise.com/wp-content/uploads/2019/07/youmotchi.png",
     "location": "Tama Farm",
     "gender": "M"

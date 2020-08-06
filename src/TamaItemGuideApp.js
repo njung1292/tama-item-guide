@@ -2,6 +2,7 @@ import React from 'react';
 import template from './template.tsx';
 import {getItemsForTamas} from './getItemsForTamas';
 import {default as TAMA_LIST} from './tamaList.json';
+import {default as ITEM_LIST} from './itemList.json';
 import _ from 'lodash';
 
 const DEFAULT_LOCATIONS = [
@@ -22,12 +23,12 @@ class TamaItemGuideApp extends React.Component {
     super(props);
 
     this.state = {
+      itemMap: _.keyBy(ITEM_LIST, 'displayName'),
       displayedTamas: sortedTamas,
       filterLocations: ["Fairy Land", "Magic Land", "Easter Land", "Flower Garden"],
       selectedTamas: {},
       selectedLocationFilter: null,
       result: [],
-      showResult: false,
       disableResetBtn: true,
       disableSubmitBtn: true,
     };
@@ -45,7 +46,7 @@ class TamaItemGuideApp extends React.Component {
       result: [],
       displayedTamas: sortedTamas,
       selectedTamas: {},
-      filterLocations: [],
+      filterLocations: ["Fairy Land", "Magic Land", "Easter Land", "Flower Garden"],
       selectedLocationFilter: null,
       disableResetBtn: true,
       disableSubmitBtn: true,
